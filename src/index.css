@@ -9,7 +9,7 @@ html {
 
 body {
   font-family: 'cairo', sans-serif;
-  background-color: #fcf3e6; /* <-- تغيير هنا (neutral) */
+  background-color: #fcf3e6; /* (neutral) */
   color: #2D3748;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

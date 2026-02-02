@@ -1,6 +1,7 @@
 import React from 'react';
 
 // 1. استيراد جميع المكونات (الأقسام)
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import ProjectIdea from './components/ProjectIdea';
 import Program from './components/Program';
@@ -10,8 +11,9 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    // هذا هو الملف الرئيسي الذي يجمع كل شيء
+    // principal folder
     <div className="App">
+      <Navbar />
       <Home />
       <ProjectIdea />
       <Program />
